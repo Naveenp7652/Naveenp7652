@@ -1,0 +1,17 @@
+import java.util.*;
+
+public class ArraylistDemo {
+
+	public static void main(String[] args) {
+		ArrayList<String> arraylist=new ArrayList<String>();
+        arraylist.add("mango");
+        arraylist.add("kolok");
+        arraylist.add("lokol");
+        arraylist.add("point");
+        arraylist.add("acid");
+        System.out.println(arraylist);
+        arraylist.remove(2);
+        System.out.println(arraylist);
+	}
+
+}
