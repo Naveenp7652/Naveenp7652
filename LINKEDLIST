@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class LnkedlistDemo {
+
+	public static void main(String[] args) {
+			LinkedList <String> linkedlist=new LinkedList<String>();
+			linkedlist.add("mango");
+			linkedlist.add("melons");
+			linkedlist.add("guava");
+			linkedlist.add("dobol");
+			linkedlist.add("garpe");
+      
+			System.out.println(linkedlist);
+			linkedlist.remove(2);
+	 		System.out.println(linkedlist);
+	        System.out.println(linkedlist.getLast()); 
+	 }
+
+}
